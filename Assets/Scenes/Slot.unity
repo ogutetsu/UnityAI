@@ -380,7 +380,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ad2eeff829e68d4fadefb3bac9cfdb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spinDuration: 2
+  spinDuration: 3
   numberOfSym: 10
   ReelText:
   - {fileID: 2032222652}
@@ -389,6 +389,7 @@ MonoBehaviour:
   betResult: {fileID: 375150206}
   totalCredits: {fileID: 1720969861}
   inputBet: {fileID: 2107140290}
+  Weight: 010001
 --- !u!1 &375150204
 GameObject:
   m_ObjectHideFlags: 0
@@ -424,7 +425,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 7, y: -47}
-  m_SizeDelta: {x: 300, y: 60}
+  m_SizeDelta: {x: 500, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &375150206
 MonoBehaviour:
