@@ -14,6 +14,7 @@ public class Sight : Sense
     protected override void Initialize()
     {
         playerTrans = GameObject.FindGameObjectWithTag("Player").transform;
+
     }
 
     protected override void UpdateSense()
@@ -65,16 +66,4 @@ public class Sight : Sense
     }
 
 
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
