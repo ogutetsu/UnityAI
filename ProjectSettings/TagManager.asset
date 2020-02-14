@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Bullet
   - WanderPoint
+  - Obstacle
+  - Start
+  - End
   layers:
   - Default
   - TransparentFX
